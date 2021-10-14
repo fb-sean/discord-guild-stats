@@ -22,7 +22,7 @@ async function init(client) {
             if (chCount.permissionsFor(chCount.guild.me).has(['VIEW_CHANNEL', 'MANAGE_CHANNELS'])) {
                 channel.setName(chCountMessage).catch((err) => {
                     console.log("Count Update Error (Channel Count):") // Log the Error
-                    console.log(err)
+                    console.error(err)
                 });
             }
         }
@@ -30,7 +30,7 @@ async function init(client) {
             if (mCount.permissionsFor(mCount.guild.me).has(['VIEW_CHANNEL', 'MANAGE_CHANNELS'])) {
                 channel.setName(mCountMessage).catch((err) => {
                     console.log("Count Update Error (Member Count):") // Log the Error
-                    console.log(err)
+                    console.error(err)
                 });
             }
         }
@@ -38,7 +38,7 @@ async function init(client) {
             if (uCount.permissionsFor(uCount.guild.me).has(['VIEW_CHANNEL', 'MANAGE_CHANNELS'])) {
                 channel.setName(uCountMessage).catch((err) => {
                     console.log("Count Update Error (User Count):") // Log the Error
-                    console.log(err)
+                    console.error(err)
                 });
             }
         }
@@ -46,7 +46,7 @@ async function init(client) {
             if (bCount.permissionsFor(bCount.guild.me).has(['VIEW_CHANNEL', 'MANAGE_CHANNELS'])) {
                 channel.setName(bCountMessage).catch((err) => {
                     console.log("Count Update Error (Bot Count):") // Log the Error
-                    console.log(err)
+                    console.error(err)
                 });
             }
         }
@@ -54,7 +54,7 @@ async function init(client) {
             if (rCount.permissionsFor(rCount.guild.me).has(['VIEW_CHANNEL', 'MANAGE_CHANNELS'])) {
                 channel.setName(rCountMessage).catch((err) => {
                     console.log("Count Update Error (Role Count):") // Log the Error
-                    console.log(err)
+                    console.error(err)
                 });
             }
         }
