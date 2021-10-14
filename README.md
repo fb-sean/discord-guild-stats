@@ -15,5 +15,4 @@ Easy way to make ur own Member Count on discord
 
 
 ## Support Server
-[Click ME](https://www.betty.cx/support)
-[or me](https://cloe.famebit.ch/support)
+[Click ME](https://www.betty.cx/support) | [or me](https://cloe.famebit.ch/support)
