@@ -10,7 +10,8 @@ Easy way to make ur own Member Count on discord
 > - **2.** Import this js to ur bot folder
 > - **3.** Install cron and discord.js with **`npm install node-cron`** and **`npm install discord.js`**
 > - **4.** Add this to ur main file (index.js or so) 
-> **`     const guild_stats = require("YOUR-PATH/guild_stats.js");
+> **`     
+>         const guild_stats = require("YOUR-PATH/guild_stats.js");
 >         guild_stats.init(client);
 > `**
 > - **5.** Change the IDs to ur channel ids.
